@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If Calculator</title>
+</head>
+<body>
+
+    <form onsubmit="ifCalc(event)">
+        <div>
+            <label for="fNum">First Number:</label>
+            <input type="text" name="fNum" id="fNum">
+        </div>
+        <br>
+        <div>
+            <label for="Operator">Operator:</label>
+            <input type="text" name="Operator" id="Operator">
+        </div>
+        <br>
+        <div>
+            <label for="sNum">Second Number:</label>
+            <input type="text" name="sNum" id="sNum">
+        </div>
+        <br>
+
+        <button type="submit" id="submit">Calculate</button>
+
+        <p id="result" style="font-size: 50px;"></p>
+        
+    </form>
+
+    <script src="./JS/ifCalc.js"></script>
+
+</body>
+</html>
